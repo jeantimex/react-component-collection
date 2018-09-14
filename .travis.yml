@@ -12,14 +12,6 @@ after_success:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
   - npm run build # make a dist folder
 
-deploy:
-  provider: npm
-  email: jean.timex@gmail.com
-  skip_cleanup: true
-  api_key: 30c7c761-6dcf-46af-8a9e-4b211da2c4ed
-  on:
-    branch: master
-
 branches:
   only:
     - master

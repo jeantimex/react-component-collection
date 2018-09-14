@@ -1,6 +1,6 @@
 {
   "name": "react-component-collection",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "react-component-collection React component",
   "main": "lib/index.js",
   "module": "es/index.js",
