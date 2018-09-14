@@ -1,6 +1,6 @@
 {
   "name": "react-component-collection",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "react-component-collection React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -28,12 +28,13 @@
     "classnames": "^2.2.6",
     "nwb": "0.23.x",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "semantic-release": "^15.9.15"
   },
-  "author": "",
-  "homepage": "",
+  "author": "jeantimex",
+  "homepage": "https://github.com/jeantimex/react-component-collection",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/jeantimex/react-component-collection",
   "keywords": [
     "react-component"
   ]
