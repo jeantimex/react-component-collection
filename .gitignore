@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# nwb output
+/demo/dist
+/es
+/lib
+/umd

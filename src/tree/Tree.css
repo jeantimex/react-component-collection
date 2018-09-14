@@ -1,0 +1,21 @@
+ul, li {
+  list-style: none;
+}
+
+.tree.is-collapsed {
+  display: none;
+}
+
+.tree-node .tree {
+  margin-left: 10px;
+}
+
+.tree-node .toggler {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tree-node .header {
+  align-items: center;
+  display: flex;
+}
