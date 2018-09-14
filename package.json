@@ -1,6 +1,6 @@
 {
   "name": "react-component-collection",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "react-component-collection React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,7 +17,8 @@
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "nwb test-react --server",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {},
   "peerDependencies": {
