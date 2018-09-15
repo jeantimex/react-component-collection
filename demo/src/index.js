@@ -3,6 +3,8 @@ import {render} from 'react-dom';
 import { Tree } from '../../src';
 import { treeNodes } from './data';
 
+import './styles.css';
+
 class Demo extends Component {
   render() {
     return (
