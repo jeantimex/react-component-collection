@@ -1,6 +1,6 @@
 {
   "name": "react-component-collection",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "react-component-collection React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,7 +18,8 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -30,7 +31,8 @@
     "nwb": "0.23.x",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "semantic-release": "^15.9.15"
+    "semantic-release": "^15.9.15",
+    "travis-deploy-once": "^5.0.7"
   },
   "author": "jeantimex",
   "homepage": "https://github.com/jeantimex/react-component-collection",

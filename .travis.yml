@@ -1,17 +1,21 @@
 sudo: false
-
 language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
 node_js:
-  - 8
-
+  - '10'
+  - '9'
+  - '8'
 before_install:
   - npm install codecov.io coveralls
-
 after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-  - npm run build # make a dist folder
-
+  - npm run build
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
-  only:
-    - master
+  except:
+    - /^v\d+\.\d+\.\d+$/
